@@ -332,7 +332,7 @@ export const education = [
     date: "SEP 2023 - ",
     grade: "",
     desc: "I am currently pursuing a MERN Stack  at Brototype, Calicut. , where I am learning and working on exciting projects with a team of talented developers.",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    degree: "Full Stack Development In MERN Stack",
   },
   {
     id: 1,
