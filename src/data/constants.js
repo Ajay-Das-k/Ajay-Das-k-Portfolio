@@ -422,29 +422,28 @@ export const projects = [
   },
   {
     id: 3,
-    title: "Tic Tac Toe",
-    date: "Mar 2024 - Mar 2024",
+    title: "E commerce Web application full Backend",
+    date: "JAN 2024 - JAN 2024",
     description:
-      "Tic Tac Toe is a classic two-player game where each player takes turns marking spaces in a 3x3 grid. The objective of the game is to get three of your marks (either X or O) in a horizontal, vertical, or diagonal row.",
+      "This repository contains the full backend code for an e-commerce web application built using Node.js. The backend is responsible for handling various functionalities such as user authentication, product management, cart management, order processing, and more.",
     image:
-      "https://media.licdn.com/dms/image/sync/D5627AQG9OpjHbj31KA/articleshare-shrink_800/0/1711089248678?e=1712732400&v=beta&t=Hr13KVNP0pvNEczd6I_IJS33LeEh79fJxnzSDB0wFxc",
-    tags: ["HTML", "CSS", "React Js", "Express Js"],
-    category: "front end",
-    github: "https://github.com/Ajay-Das-k/Tic-Tac-Toe-Game-In-React-JS.git",
-    webapp: "https://tic-tac-toe-game-in-react-js.vercel.app/",
+      "https://repository-images.githubusercontent.com/765042183/6bcda4df-a778-4c44-95a3-5541d8b80568",
+    tags: ["JWT", "NODE", "MongoDB", "Express Js"],
+    category: "back end",
+    github:
+      "https://github.com/Ajay-Das-k/E-commerce-Web-application-full-Backend-using-NodeJs.git",
   },
   {
     id: 4,
-    title: "Tic Tac Toe",
+    title: "Rc hub E-commerce Website",
     date: "Mar 2024 - Mar 2024",
     description:
-      "Tic Tac Toe is a classic two-player game where each player takes turns marking spaces in a 3x3 grid. The objective of the game is to get three of your marks (either X or O) in a horizontal, vertical, or diagonal row.",
-    image:
-      "https://media.licdn.com/dms/image/sync/D5627AQG9OpjHbj31KA/articleshare-shrink_800/0/1711089248678?e=1712732400&v=beta&t=Hr13KVNP0pvNEczd6I_IJS33LeEh79fJxnzSDB0wFxc",
-    tags: ["HTML", "CSS", "React Js", "Express Js"],
-    category: "front end",
-    github: "https://github.com/Ajay-Das-k/Tic-Tac-Toe-Game-In-React-JS.git",
-    webapp: "https://tic-tac-toe-game-in-react-js.vercel.app/",
+      "This is a Node.js Express project for an e-commerce website specializing in the sale of drones. The project includes both an admin panel and a user panel, allowing administrators to manage products, orders, and users, while users can browse products, make purchases, and manage their accounts.",
+    image: "https://github.com/Ajay-Das-k/Rc_hub_e_comerse-main/raw/main/1.png",
+    tags: ["JWT", "MongoDb", "Node Js", "Express Js", "EJS"],
+    category: "full stack",
+    github: "https://github.com/Ajay-Das-k/Rc_hub_e_comerse-main",
+    webapp: "https://rc-hub-ecomerse-kmb2.onrender.com/",
   },
   // {
   //   id: 0,
