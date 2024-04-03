@@ -325,33 +325,42 @@ export const experiences = [
 ];
 
 export const education = [
-  // {
-  //   id: 0,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Kiit.jpeg?alt=media&token=3839d520-c59d-4341-ad8f-0980c98de4dd",
-  //   school: "Kalinga Institute of Industrial Technology, Bhubaneswar",
-  //   date: "Oct 2021 - Sep 2025",
-  //   grade: "8.71 CGPA",
-  //   desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Kalinga Institute of Industrial Technology, Bhubaneswar. I have completed 4 semesters and have a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I am also a member of the Google Developers Student Club (GDSC) at KIIT, where I am learning and working on exciting projects with a team of talented developers.",
-  //   degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
-  // },
-  // {
-  //   id: 1,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2019 - Apr 2025",
-  //   grade: "88.2%",
-  //   desc: "I completed my class 12 high school education at Methodist School, Dankuni, where I studied Science with Computer Science.",
-  //   degree: "ISC(XII), Science with Computer",
-  // },
-  // {
-  //   id: 2,
-  //   img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/methodist.png?alt=media&token=018a1b18-e2dd-4f34-8855-cff1b6b69fd3",
-  //   school: "Methodist School, Dankuni",
-  //   date: "Apr 2017 - Apr 2019",
-  //   grade: "92.3%",
-  //   desc: "I completed my class 10 education at Methodist School, Dankuni, where I studied Science with Computer Application.",
-  //   degree: "ICSC(X), Science with Computer",
-  // },
+  {
+    id: 0,
+    img: "https://uam-cdn.nextlevel.app/create-company/12a74963-c04a-4b14-9099-9176296a1b37-1687842458",
+    school: "Brototype, Calicut",
+    date: "SEP 2023 - ",
+    grade: "",
+    desc: "I am currently pursuing a MERN Stack  at Brototype, Calicut. , where I am learning and working on exciting projects with a team of talented developers.",
+    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+  },
+  {
+    id: 1,
+    img: "https://scontent-bom1-2.xx.fbcdn.net/v/t39.30808-1/292083793_406521994829553_4350403352537104462_n.jpg?stp=dst-jpg_p200x200&_nc_cat=100&ccb=1-7&_nc_sid=5f2048&_nc_ohc=qgz3OvUFN2oAX_hIzXk&_nc_ht=scontent-bom1-2.xx&oh=00_AfD8VtKPOOIOBIINoD-o3OwHKBr8z7O3YJFpSnhiH4-fRw&oe=6612D597",
+    school: "MGM COLLEGE OF ENGINEERING AND PHARMACEUTICAL SCIENCES,Kerala",
+    date: "Oct 2019 - Sep 2023",
+    grade: "7.71 CGPA",
+    desc: "Bachelor's degree in Computer Science and Engineering at MGM COLLEGE OF ENGINEERING,Kerala. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. I was also a member of the IEDC CELL , where I am learning and working on exciting projects with a team of talented developers and how to deploy it",
+    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+  },
+  {
+    id: 2,
+    img: "https://redteamacademy.com/wp-content/uploads/2022/10/cropped-logo.png",
+    school: "Red team academy, Calicut ,Kerala",
+    date: "Oct 2020 - Sep 2021",
+    grade: "9.5",
+    desc: "The CPT is a security credential that focuses on core Penetration Testing concepts and skills. The CPT course provides you with a real-world hands-on penetration testing experience and is a nationally accepted hacking and penetration testing class available that covers the testing of modern infrastructures, operating systems, and application environments while training the students on how to document and write a penetration testing report.",
+    degree: "Certified Penetration Tester",
+  },
+  {
+    id: 3,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT--jppkqtKW7WFko3Ni1BAFhLjyXi2YVOiHqsXuk1CfZ95LRXpIKAxoCYQ84HwO860mhs&usqp=CAU",
+    school: "MVHSS,Kerala",
+    date: "Apr 2017 - Apr 2019",
+    grade: "88.2%",
+    desc: "I completed my class 12 high school education at MVHSS ,Kerala, where I studied Science with Computer Science.",
+    degree: "ISC(XII), Science with Computer",
+  },
 ];
 
 export const projects = [
@@ -436,7 +445,7 @@ export const projects = [
   {
     id: 4,
     title: "Rc hub E-commerce Website",
-    date: "Mar 2024 - Mar 2024",
+    date: "FEB 2024 - APR 2024",
     description:
       "This is a Node.js Express project for an e-commerce website specializing in the sale of drones. The project includes both an admin panel and a user panel, allowing administrators to manage products, orders, and users, while users can browse products, make purchases, and manage their accounts.",
     image: "https://github.com/Ajay-Das-k/Rc_hub_e_comerse-main/raw/main/1.png",
@@ -444,6 +453,89 @@ export const projects = [
     category: "full stack",
     github: "https://github.com/Ajay-Das-k/Rc_hub_e_comerse-main",
     webapp: "https://rc-hub-ecomerse-kmb2.onrender.com/",
+  },
+  {
+    id: 5,
+    title: "React OLX Clone",
+    date: "FEB 2024 - FEB 2024",
+    description:
+      "the OLX Clone project repository! This repository contains the source code for building a replica of OLX, an online marketplace, using React.js. Whether you're a beginner or an experienced developer, this project provides an excellent opportunity to explore React.js and build a fully functional web application from scratch",
+    image:
+      "https://repository-images.githubusercontent.com/771245234/8a4dfa03-c96e-41af-b43c-5c62be0ebf1c",
+    tags: ["HTML", "CSS", "React Js", "FireBase"],
+    category: "front end",
+    github:
+      "https://github.com/Ajay-Das-k/OLX-clone-using_react.js-and-FireBase/",
+  },
+  {
+    id: 6,
+    title: "Emploee Management System",
+    date: "DEC 2023- JAN 2024",
+    description:
+      "Test to be created in MERN for the panel while for API's you need to API's built on Node Create models using mogo db Validations Validation made on txtbox (server side Validation/JavaScript) Check login valid or not if valid then go to DashBord else alert invalid login details Manage User Name on Dashboard by local storage sessions",
+    image:
+      "https://camo.githubusercontent.com/97811efd245760ebb8fea0c895c116e9c1d9a7cb520241c1a1b2ce62723714b3/68747470733a2f2f692e70696e696d672e636f6d2f6f726967696e616c732f65332f35322f36662f65333532366639643337353765633536313066323465323564346265346163632e676966",
+    tags: ["HTML", "CSS", "Express Js", "MongoDB"],
+    category: "full stack",
+    github:
+      "https://github.com/Ajay-Das-k/DealsDray_Ltd_Mern_stack_machine_test_Emploee_Management_System",
+    webapp: "hhttps://dealsdray-online-pvt-ltd-mern-stack.onrender.com/",
+  },
+  {
+    id: 7,
+    title: "React_resizable_dragable_components",
+    date: "FEB 2024 - FEB 2024",
+    description:
+      "react-grid-layout is a popular React library used for building draggable and resizable grid layouts. It provides a flexible grid system that allows users to create complex layouts by arranging components in rows and columns.",
+    image:
+      "https://github.com/Ajay-Das-k/React_resizable_dragable_components_Assignment_1/raw/main/Layouts.png",
+    tags: ["HTML", "CSS", "React Js"],
+    category: "front end",
+    github:
+      "https://github.com/Ajay-Das-k/React_resizable_dragable_components_Assignment_1",
+    webapp:
+      "https://react-resizable-dragable-components-assignment-1.vercel.app/",
+  },
+  {
+    id: 8,
+    title: "react-components-ToDoList",
+    date: "Mar 2023 - Mar 2023",
+    description:
+      "Draggable Components: Components can be easily dragged and rearranged within the grid layout. Resizable Components: Components can be resized dynamically by dragging their edges or corners. Responsive Layouts: Supports responsive designs, allowing layouts to adapt to different screen sizes. Persistent Layouts: Supports saving and restoring layout configurations. Configurable Grid: Grid properties such as row height, column count, margins, and breakpoints can be customized. Collision Detection: Automatically prevents components from overlapping when dragged. Event Handling: Provides various event handlers for handling layout changes, resizing, and dragging. Overall, react-grid-layout simplifies the process of creating flexible and interactive grid-based layouts in React applications.",
+    image:
+      "https://github.com/Ajay-Das-k/React_components_with-_BackEnd__Assignment_2/raw/main/download.png",
+    tags: ["React Js", "MongoDb", "Node Js", "Express Js"],
+    category: "full stack",
+    github:
+      "https://github.com/Ajay-Das-k/React_components_with-_BackEnd__Assignment_2/tree/main",
+    webapp: "https://react-components-with-back-end-assignment-2.vercel.app/",
+  },
+  {
+    id: 10,
+    title: "NetFlix Clone Using React2",
+    date: "FEB 2024 - MAR 2024",
+    description:
+      "project aimed at replicating the user interface and functionality of the popular streaming platform Netflix using the React.js library. This clone project will involve creating components to mimic Netflix's homepage layout, including sections for trending content, recommended shows and movies, user profiles, and search functionality",
+    image:
+      "https://github.com/Ajay-Das-k/NetFlix2_NewUi_Clone_Using_React2.js/raw/main/netflixclone.gif",
+    tags: ["HTML", "CSS", "React Js"],
+    category: "front end",
+    github:
+      "https://github.com/Ajay-Das-k/NetFlix2_NewUi_Clone_Using_React2.js",
+    webapp: "",
+  },
+  {
+    id: 11,
+    title: "Node jS BackEnd For Todo list",
+    date: "JAN 2024 - JAN 2024",
+    description:
+      "backend implementation using Node.js for a Todo List application.This indicates that the backend is specifically designed to support a Todo List application. A Todo List application typically allows users to create, read, update, and delete tasks or items on a list. The backend would handle operations such as creating new tasks, retrieving existing tasks, updating task details, and deleting tasks.",
+    image:
+      "https://github.com/Ajay-Das-k/Node_jS_BackEnd_For_Todo_list_Assignment2/raw/main/creativeplus4.gif",
+    tags: ["NODE", "MongoDB", "Express Js"],
+    category: "back end",
+    github:
+      "https://github.com/Ajay-Das-k/Node_jS_BackEnd_For_Todo_list_Assignment2",
   },
   // {
   //   id: 0,
