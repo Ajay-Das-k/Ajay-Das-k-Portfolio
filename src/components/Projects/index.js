@@ -26,60 +26,59 @@ const Projects = ({openModal,setOpenModal}) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "web app" ? (
+          {toggle === "front end" ? (
             <ToggleButton
               active
-              value="web app"
-              onClick={() => setToggle("web app")}
+              value="front end"
+              onClick={() => setToggle("front end")}
             >
               FRONT END
             </ToggleButton>
           ) : (
-            <ToggleButton value="web app" onClick={() => setToggle("web app")}>
+            <ToggleButton
+              value="front end"
+              onClick={() => setToggle("front end")}
+            >
               FRONT END
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "android app" ? (
+          {toggle === "back end" ? (
             <ToggleButton
               active
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="back end"
+              onClick={() => setToggle("back end")}
             >
               BACKEND
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="android app"
-              onClick={() => setToggle("android app")}
+              value="back end"
+              onClick={() => setToggle("back end")}
             >
               BACKEND
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "machine learning" ? (
+          {toggle === "full stack" ? (
             <ToggleButton
               active
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="full stack"
+              onClick={() => setToggle("full stack")}
             >
-              MINI PROJECT
+             FULL STACK
             </ToggleButton>
           ) : (
             <ToggleButton
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="full stack"
+              onClick={() => setToggle("full stack")}
             >
-              MINI PROJECT
+              FULL STACK
             </ToggleButton>
           )}
           <Divider />
           {toggle === "iot" ? (
-            <ToggleButton
-              active
-              value="iot"
-              onClick={() => setToggle("iot")}
-            >
+            <ToggleButton active value="iot" onClick={() => setToggle("iot")}>
               IOT
             </ToggleButton>
           ) : (
