@@ -74,18 +74,18 @@ const Projects = ({openModal,setOpenModal}) => {
             </ToggleButton>
           )}
           <Divider />
-          {toggle === "machine learning" ? (
+          {toggle === "iot" ? (
             <ToggleButton
               active
-              value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              value="iot"
+              onClick={() => setToggle("iot")}
             >
               IOT
             </ToggleButton>
           ) : (
             <ToggleButton
               value="machine learning"
-              onClick={() => setToggle("machine learning")}
+              onClick={() => setToggle("iot")}
             >
               IOT
             </ToggleButton>
