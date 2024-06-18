@@ -34,6 +34,11 @@ export const skills = [
           "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/projects/quick-start-lightning-web-components/97fa54b90c579eaa8b4e63b80588679e_badge.png",
       },
       {
+        name: "Visual Force",
+        image:
+          "https://res.cloudinary.com/hy4kyit2a/f_auto,fl_lossy,q_70/learn/modules/lex_dev_visualforce/7998e9bbdff36b923bb01ff7a5f918f5_badge.png",
+      },
+      {
         name: "LWC",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
@@ -80,6 +85,16 @@ export const skills = [
   {
     title: "Backend",
     skills: [
+      {
+        name: "SalesForce",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Salesforce.com_logo.svg/2560px-Salesforce.com_logo.svg.png",
+      },
+      {
+        name: "Apex",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Apache_Apex_Logo.svg/1200px-Apache_Apex_Logo.svg.png",
+      },
       {
         name: "Node Js",
         image: "https://nodejs.org/static/images/logo.svg",
@@ -225,10 +240,29 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
+    img: "https://media.licdn.com/dms/image/C510BAQHerATi6FZI9Q/company-logo_200_200/0/1631365519598?e=2147483647&v=beta&t=Ni-4n4EmZ2u-Ai1xEVSCOjOwYeKMzEmmPMETNqiie0U",
+    role: " SalesForce developer",
+    company: "CRMantra Pvt. Ltd.",
+    date: "May 2024 - ",
+    desc: "Developing SalesForce Application .",
+    skills: [
+     "Aura",
+     "LWC",
+     "SalesForce",
+     "Visual Force",
+     "Apex",
+      "HTML",
+      "CSS",
+      "JavaScript",
+    ],
+    doc: "",
+  },
+  {
+    id: 1,
     img: "https://media.licdn.com/dms/image/C4D0BAQEWqmtyVtZl7Q/company-logo_200_200/0/1653839709668/brototype_logo?e=2147483647&v=beta&t=X-WY-_lvc3PXrUv6KTLFcRG79AAVf6LPIPDNTXyL5-k",
     role: " Fullstack Engineering Intern",
     company: "Brototype Pvt. Ltd.",
-    date: "Aug 2023 - ",
+    date: "Aug 2023 - May 2024",
     desc: "Working on MERN Stack , managing Webapplications.",
     skills: [
       "Docker",
